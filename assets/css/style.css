@@ -319,8 +319,9 @@ h3 {
   position: relative;
 } */
 
-#intro.section {
-  background: #dfd21e repeat;
+/* MAIN COLOR BACKGROUND PRIMARY !!!! */
+#intro.section {  
+  background: #05c4d1 repeat;    
   position: relative;
 }
 
