@@ -84,16 +84,22 @@ font-size: 30px; /* Adjust the font size as needed */
     text-align: left; /* Align text to the left */
     color: #f8f8f2; /* Text color set to light */
     font-family: 'Courier New', monospace; /* Use a monospace font for code theme */
+    white-space: pre-line; /* Preserve line breaks */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   }
   
   .about-me-content h2 {
     font-size: 24px;
     color: #f92672; /* Heading color */
+    margin-bottom: 20px;
   }
   
   .about-me-content p {
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 10px;
   }
   
   .about-me-content button {
