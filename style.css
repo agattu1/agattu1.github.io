@@ -76,6 +76,7 @@ font-size: 30px; /* Adjust the font size as needed */
     background-color: #000000; /* Dark background color */
     position: relative;
     padding: 80px 0;
+    border: 1px solid #ffffff; /* Add a white border */
   }
   
   .about-me-content {
