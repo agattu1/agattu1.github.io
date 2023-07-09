@@ -19,8 +19,31 @@ h1{
 }
   
 h2{
-    font-size: 45px;
+    font-size: 60px;
 }
+
+/* CSS */
+.typing {
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
+  .typing:after {
+    content: "|";
+    margin-left: 2px;
+    opacity: 1;
+    animation: blink-caret 0.75s infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
 
 #particles-js{
     background-image: url('image1.jpg');
