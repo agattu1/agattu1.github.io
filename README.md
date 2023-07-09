@@ -1,4 +1,4 @@
-# particles.js
+# Anirudh Gattu
 
 [![Github file size](https://img.shields.io/github/size/marcbruederlin/particles.js/dist/particles.min.js.svg)](https://github.com/marcbruederlin/particles.js/blob/master/dist/particles.min.js)
 [![Travis](https://img.shields.io/travis/marcbruederlin/particles.js.svg)](https://travis-ci.org/marcbruederlin/particles.js)
