@@ -1,37 +1,25 @@
 // JavaScript
 const headingElement = document.getElementById('typing-effect');
-const texts = [
-  'My Name',
-  'Another sentence',
-  'Yet another sentence'
-];
-let textIndex = 0;
-let charIndex = 0;
+const subtitleElement = document.getElementById('typing-effect-subtitle');
+const headingText = 'Nano Artz Technologies';
+const subtitleText = 'Quality Over Quantity';
 
-function typeText() {
-  if (charIndex < texts[textIndex].length) {
-    headingElement.textContent += texts[textIndex].charAt(charIndex);
-    charIndex++;
-    setTimeout(typeText, 100); // Typing speed (adjust as needed)
-  } else {
-    charIndex = 0;
-    textIndex++;
-    if (textIndex === texts.length) {
-      textIndex = 0; // Restart from the beginning once all texts are typed
-    }
-    setTimeout(eraseText, 1000); // Delay before erasing the text (adjust as needed)
+let headingIndex = 0;
+let subtitleIndex = 0;
+
+function typeHeading() {
+  headingElement.textContent = headingText.slice(0, headingIndex++);
+  if (headingIndex <= headingText.length) {
+    setTimeout(typeHeading, 100); // Typing speed for heading (adjust as needed)
   }
 }
 
-function eraseText() {
-  const currentText = headingElement.textContent;
-  if (charIndex >= 0) {
-    headingElement.textContent = currentText.slice(0, charIndex);
-    charIndex--;
-    setTimeout(eraseText, 50); // Erasing speed (adjust as needed)
-  } else {
-    setTimeout(typeText, 500); // Delay before typing the next text (adjust as needed)
+function typeSubtitle() {
+  subtitleElement.textContent = subtitleText.slice(0, subtitleIndex++);
+  if (subtitleIndex <= subtitleText.length) {
+    setTimeout(typeSubtitle, 100); // Typing speed for subtitle (adjust as needed)
   }
 }
 
-typeText();
+typeHeading();
+setTimeout(typeSubtitle, 1000); // Delay before starting the subtitle typing effect (adjust as needed)
