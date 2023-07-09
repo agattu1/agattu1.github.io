@@ -13,10 +13,24 @@ body{
     line-height: 0.4em;
 }
 
-h1{
+h1 {
     font-size: 50px;
-  font-family: "Segoe UI";
+    font-family: "Segoe UI";
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap; /* Prevent line breaks */
+    border-right: 0.15em solid #13E8E9; /* Add a blinking cursor effect */
+    animation: typing 1s steps(40, end), blink-caret 0.75s infinite;
+  }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
+
 h2{
     font-size: 20px;
 }
