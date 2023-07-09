@@ -1,7 +1,19 @@
+# Dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+/.vscode
+
+# Misc
+*.log
+/demo
+
+# System Files
 .DS_Store
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/.idea/
+Thumbs.db
