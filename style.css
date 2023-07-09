@@ -22,15 +22,6 @@ h1 {
     animation: typing 1s steps(40, end), blink-caret 0.75s infinite;
   }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 h2{
     font-size: 20px;
 }
