@@ -22,6 +22,23 @@
         <a href="https://youtube.com/@anirudh.g" target="https://youtube.com/@anirudh.g"><i class="fab fa-youtube"></i></a>
         <a href="https://github.com/agattu1" target="https://github.com/agattu1"><i class="fab fa-github"></i></a>
       </div>
+
+
+    <div id="about-me" class="about-me-section">
+    <div class="about-me-content">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida turpis nec eros luctus sagittis. Donec auctor mi vel orci gravida, at sagittis tellus consectetur.</p>
+        <button onclick="scrollToSection('#about-me')">Learn More</button>
+    </div>
+    </div>
+
+    <script>
+        function scrollToSection(selector) {
+          document.querySelector(selector).scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      </script>
     
     
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -32,6 +49,10 @@
     })
 </script>
 <script src="ani.js" defer></script>
+
+
+
+
 
 </body>
 </html>
