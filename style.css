@@ -73,34 +73,39 @@ font-size: 30px; /* Adjust the font size as needed */
 
 
 .about-me-section {
-    background-color: #f8f3e6; /* Cream color background */
-    padding: 20px;
+    background-color: #272822; /* Dark background color */
+    position: relative;
+    padding: 80px 0;
   }
   
-.about-me-content {
-max-width: 600px;
-margin: 0 auto;
-text-align: center;
-}
-
-.about-me-content h2 {
-font-size: 30px;
-}
-
-.about-me-content p {
-font-size: 18px;
-line-height: 1.5;
-}
-
-.about-me-content button {
-background-color: #fff;
-color: #000;
-padding: 10px 20px;
-border: none;
-font-size: 16px;
-cursor: pointer;
-margin-top: 20px;
-}
+  .about-me-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left; /* Align text to the left */
+    color: #f8f8f2; /* Text color set to light */
+    font-family: 'Courier New', monospace; /* Use a monospace font for code theme */
+  }
+  
+  .about-me-content h2 {
+    font-size: 24px;
+    color: #f92672; /* Heading color */
+  }
+  
+  .about-me-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .about-me-content button {
+    background-color: #f8f8f2;
+    color: #272822;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
 
   
   
