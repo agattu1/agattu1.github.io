@@ -15,12 +15,12 @@ body{
   }
   
   h1 {
-    font-size: 50px;
+    font-size: 51px;
     font-family: "Segoe UI";
   }
   
   h2 {
-    font-size: 25px;
+    font-size: 26px;
     font-family: "Roboto";
   }
   
@@ -49,4 +49,39 @@ body{
     background-image: url('image1.jpg');
     height: 100vh;
   }
+
+  .social-icons {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent; /* Set the background color to transparent */
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .social-icons a {
+    display: block; /* Change the display property to "block" for vertical placement */
+    margin: 5px auto; /* Use margin auto for center alignment */
+  }
+  
+  .social-icons i {
+    color: #fff; /* Set the icon color to white (#fff) */
+    font-size: 30px; /* Adjust the font size as needed */
+  }
+  With these CSS modifications, the social media icons should now be vertically aligned at the bottom of the page, and their background color will be transparent to match the black background. Additionally, the icon color is set to white (#fff).
+  
+  Make sure to replace the Font Awesome classes (fab fa-linkedin, fab fa-medium, fab fa-youtube, and fab fa-github) with the correct class names for the icons you want to use.
+  
+  Adjust the icon sizes and margin values (margin: 5px auto;) as needed to achieve the desired vertical placement and spacing between the icons.
+  
+  These changes should address the issues you mentioned. Let me know if you have any further questions!
+  
+  
+  
+  
+  
+  
+  
   
