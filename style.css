@@ -56,7 +56,7 @@ body{
     bottom: 0;
     width: 100%;
     background-color: transparent; /* Set the background color to transparent */
-    text-align: center;
+    text-align: left;
     padding: 10px;
     z-index: 1;
   }
