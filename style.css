@@ -71,6 +71,12 @@ color: #fff; /* Set the icon color to white (#fff) */
 font-size: 30px; /* Adjust the font size as needed */
 }
 
+.logo {
+  width: 30px; /* Adjust the width of MERIT page to match the size of other icons */
+  filter: grayscale(100%); /* Converts the image to black and white */
+}
+
+
 
 .about-me-section {
     background-color: #000000; /* Dark background color */
