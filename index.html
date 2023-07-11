@@ -45,13 +45,20 @@
         <script>
           var codepenContainer = document.querySelector('.codepen');
           var resultTab = codepenContainer.querySelector('[data-tab="result"]');
+          var resultSection = resultTab.querySelector('.codepen-result-section');
           
           // Hide other tabs and show the result tab
           codepenContainer.querySelectorAll('.codepen-menu-item').forEach(function(item) {
             item.style.display = 'none';
           });
           resultTab.style.display = 'block';
+          
+          // Remove text within the result section
+          while (resultSection.firstChild) {
+            resultSection.removeChild(resultSection.firstChild);
+          }
         </script>
+        
         
 
     </div>
