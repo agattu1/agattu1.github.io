@@ -51,24 +51,21 @@ height: 100vh;
 }
 
 .social-icons {
-position: fixed;
-left: 20px;
-bottom: 20px;
-width: 100%;
-background-color: transparent; /* Set the background color to transparent */
-text-align: left;
-padding: 10px;
-z-index: 1;
+  position: fixed;
+  top: 20px; /* Adjust the desired top position */
+  right: 20px; /* Adjust the desired right position */
+  z-index: 1;
 }
 
 .social-icons a {
-display: block; /* Change the display property to "block" for vertical placement */
-margin: 5px auto; /* Use margin auto for center alignment */
+  display: block;
+  margin: 5px auto;
+  width: fit-content; /* Limit the width to fit the content */
 }
 
 .social-icons i {
-color: #fff; /* Set the icon color to white (#fff) */
-font-size: 30px; /* Adjust the font size as needed */
+  color: #fff;
+  font-size: 30px;
 }
 
 .logo {
