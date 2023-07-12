@@ -33,7 +33,7 @@
       <div class="about-me-content">
         <h2>Mé Expértise.. </h2>
         <p>Apppreciate you visiting my page. Currently attempting to gain maximum exposure to state of art technologies & software from internships and my institute. Proactive in self-growth, engineering without boundaries, and setting up a foundation for the future. Sometimes, I just engineer for the fun of it. Also, all of my projects are hosted on GitHub.</p>
-        <button onclick="executeCodePenCode()">Learn More</button>
+        <button onclick="redirectToRandomPage()">Learn More</button>
       </div>
         <!-- The matrix generator: data height is the height of the box , and the style height is the height of the generated matrix gif -->
       <p class="codepen" data-height="500" data-default-tab="result" data-slug-hash="WxrjOq" data-editable="true" data-user="perbyhring" style="height: 10; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -55,6 +55,17 @@
           });
         }
       </script> -->
+
+      <script>
+        function redirectToRandomPage() {
+          var urls = [
+            "https://github.com/agattu1",
+            "https://meritpages.com/agattu"
+          ];
+          var randomIndex = Math.floor(Math.random() * urls.length);
+          window.location.href = urls[randomIndex];
+        }
+      </script>
     
     
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
