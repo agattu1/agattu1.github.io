@@ -1,6 +1,6 @@
 // JavaScript
 const headingElement = document.getElementById('typing-effect');
-const texts = ['ABIHITH', 'JANANI', 'athlete', 'engineer', 'believer'];
+const texts = ['athlete', 'engineer', 'believer'];
 let textIndex = 0;
 let charIndex = 0;
 
