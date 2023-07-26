@@ -1,6 +1,7 @@
 // JavaScript
 const headingElement = document.getElementById('typing-effect');
-const texts = ['athlete', 'engineer', 'believer'];
+//const texts = ['athlete', 'engineer', 'believer'];
+const texts = ['🔺 GARMIN Software Engineer', '⚽️ Fitness', '☁️ Cloud Enthusiast'];
 let textIndex = 0;
 let charIndex = 0;
 
