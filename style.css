@@ -47,7 +47,8 @@ from, to {
 
 #particles-js {
 background-image: url('GarminLogo2.jpg');
-height: 100vh;
+height: 70vh;
+/* height: 100vh; */
 }
 
 .social-icons {
