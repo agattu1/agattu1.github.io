@@ -68,16 +68,16 @@ const HomePage = () => {
       </div>
       <div className="home-content">
         <h1>Anirudh Gattu</h1>
-        {/* Typewriter effect here */}
-        <h2><TypewriterEffect /></h2> {/* Replace this with the typewriter component */}
+        {}
+        <h2><TypewriterEffect /></h2> {}
       </div>
       <div className="home-icons">
-        {/* MeritPages (Star Icon) on top */}
+        {}
         <a href="https://meritpages.com/agattu">
-          <FaStar /> {/* Star icon */}
+          <FaStar /> {}
           <span> MeritPages</span>
         </a>
-        {/* Other icons below */}
+        {}
         <a href="https://github.com/agattu1">
           <FaGithub />
           <span> Github</span>
