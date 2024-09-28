@@ -106,9 +106,9 @@ const words = [
   '🐝🎓', '👑🔱', '🎊🙏'
 ];
 
-const typingDelay = 100; // delay between typing each letter
-const erasingDelay = 50; // delay between erasing each letter
-const pauseDelay = 2000; // pause before deleting word and moving to the next one
+const typingDelay = 100; 
+const erasingDelay = 50; 
+const pauseDelay = 2000; 
 
 const TypewriterEffect = () => {
   const [wordIndex, setWordIndex] = useState(0);
