@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './NavBar.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaStar } from 'react-icons/fa'; // Import the star icon
+import { FaGithub, FaLinkedin, FaEnvelope, FaBook, FaStar, FaYoutube } from 'react-icons/fa'; // Import the star icon
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -49,6 +49,12 @@ const NavBar = () => {
           {/* LinkedIn icon */}
           <a href="https://www.linkedin.com/in/anig2" target="_blank" rel="noopener noreferrer" className="navbar-icon">
             <FaLinkedin size={20} />
+          </a>
+          <a href="https://medium.com/@anirudh1" target="_blank" rel="noopener noreferrer" className="navbar-icon">
+            <FaBook size={20} />
+          </a>
+          <a href="https://youtube.com/@anirudh.g" target="_blank" rel="noopener noreferrer" className="navbar-icon">
+            <FaYoutube size={20} />
           </a>
           {/* Email icon */}
           <a href="mailto:gattu.a@outlook.com" className="navbar-icon">

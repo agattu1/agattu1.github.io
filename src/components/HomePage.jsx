@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PlexusBackground from './PlexusBackground';
-import { FaGithub, FaLinkedin, FaEnvelope, FaStar} from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaBook ,FaStar, FaYoutube} from 'react-icons/fa';
 import './HomePage.css';
 
 const words = ['🔺 engineer', '⚽️ athlete', '☁ believer'];
@@ -85,6 +85,14 @@ const HomePage = () => {
         <a href="https://www.linkedin.com/in/anig2">
           <FaLinkedin />
           <span> LinkedIn</span>
+        </a>
+        <a href="https://medium.com/@anirudh1">
+          <FaBook />
+          <span> Medium</span>
+        </a>
+        <a href="https://youtube.com/@anirudh.g">
+          <FaYoutube />
+          <span> YouTube</span>
         </a>
         <a href="mailto:gattu.a@outlook.com">
           <FaEnvelope />
