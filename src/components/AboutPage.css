@@ -23,7 +23,7 @@ body {
 
 .reflective-quote {
   position: relative;
-  font-size: clamp(.3em, .4vw + 0.5em, 1.5em); /* Adjust font size */
+  font-size: clamp(.3em, .4vw + 0.5em, 1.5em); 
   color: #fff; 
   padding: 20px;
   text-align: center;
