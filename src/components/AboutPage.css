@@ -24,20 +24,20 @@ body {
 .reflective-quote {
   position: relative;
   font-size: clamp(.3em, .4vw + 0.5em, 1.5em); /* Adjust font size */
-  color: #fff; /* White text for contrast */
+  color: #fff; 
   padding: 20px;
   text-align: center;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.8); /* Darker background for contrast */
+  background: rgba(0, 0, 0, 0.8); 
   box-shadow: 
-    0 0 5px rgba(255, 255, 255, 0.3),  /* Inner glow */
-    0 0 10px rgba(255, 255, 255, 0.1), /* Medium glow */
-    0 0 20px rgba(255, 255, 255, 0.1), /* Outer glow */
-    0 0 30px rgba(255, 255, 255, 0.2); /* Faded outer glow */
-  animation: shimmer 1.5s infinite; /* Add shimmer animation */
+    0 0 5px rgba(255, 255, 255, 0.3),    
+    0 0 10px rgba(255, 255, 255, 0.1),  
+    0 0 20px rgba(255, 255, 255, 0.1),   
+    0 0 30px rgba(255, 255, 255, 0.2);     
+  animation: shimmer 1.5s infinite;    
 }
 
-/* Shimmer effect */
+
 @keyframes shimmer {
   0% {
     text-shadow: 
@@ -67,17 +67,17 @@ body {
   display: inline-block;
   margin-left: 5px;
   padding: 8px 16px;
-  background-color: #ff0d0d; /* Dark background for the button */
-  color: #fff; /* White text */
+  background-color: #ff0d0d; 
+  color: #fff; 
   border: none;
   border-radius: 5px;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
   transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
 }
 
 .github-button:hover {
-  background-color: #fad11bda; /* Lighter shade on hover */
-  transform: scale(1.05); /* Slightly enlarge */
+  background-color: #fad11bda; 
+  transform: scale(1.05); 
 }
 
 
