@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './NavBar.css';
-import { FaGithub, FaLinkedin, FaEnvelope, FaBook, FaStar, FaYoutube } from 'react-icons/fa'; // Import the star icon
+import { FaGithub, FaLinkedin, FaEnvelope, FaBook, FaStar, FaYoutube } from 'react-icons/fa'; 
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
