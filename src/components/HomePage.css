@@ -89,8 +89,8 @@ html, body {
 }
 
 .home-content h2 {
-  font-size: clamp(2em, 3.5vw, 3.3em);
-  font-weight: 600;
+  font-size: clamp(.1em, 2.5vw, 2.3em);
+  font-weight: 500;
 }
 
 .home-content h3 {

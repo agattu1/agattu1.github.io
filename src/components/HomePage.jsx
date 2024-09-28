@@ -1,46 +1,9 @@
-// import React from 'react';
-// import PlexusBackground from './PlexusBackground';
-// import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-// import './HomePage.css';
-
-// const HomePage = () => {
-//   return (
-//     <div className="home">
-//       <div className="plexus-background">
-//         <PlexusBackground />
-//       </div>
-//       <div className="home-content">
-//         <h1>Anirudh Gattu</h1>
-//         <h2>Georgia Institute of Technology</h2>
-//         <h3>Computer Science</h3>
-//         <h4>with Intelligence and Devices threads</h4>
-//       </div>
-//       <div className="home-icons">
-//         <a href="https://github.com/agattu1">
-//           <FaGithub />
-//           <span> Github</span>
-//         </a>
-//         <a href="https://www.linkedin.com/in/anig2">
-//           <FaLinkedin />
-//           <span> LinkedIn</span>
-//         </a>
-//         <a href="mailto:gattu.a@outlook.com">
-//           <FaEnvelope />
-//           <span> Email</span>
-//         </a>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HomePage;
-
 import React, { useEffect, useState } from 'react';
 import PlexusBackground from './PlexusBackground';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaStar} from 'react-icons/fa';
 import './HomePage.css';
 
-const words = ['athlete', 'engineer', 'believer'];
+const words = ['🔺 engineer', '⚽️ athlete', '☁ believer'];
 
 const typingDelay = 100;
 const erasingDelay = 50;
@@ -96,6 +59,7 @@ const TypewriterEffect = () => {
   );
 };
 
+
 const HomePage = () => {
   return (
     <div className="home">
@@ -104,9 +68,16 @@ const HomePage = () => {
       </div>
       <div className="home-content">
         <h1>Anirudh Gattu</h1>
-        <TypewriterEffect />
+        {/* Typewriter effect here */}
+        <h2><TypewriterEffect /></h2> {/* Replace this with the typewriter component */}
       </div>
       <div className="home-icons">
+        {/* MeritPages (Star Icon) on top */}
+        <a href="https://meritpages.com/agattu">
+          <FaStar /> {/* Star icon */}
+          <span> MeritPages</span>
+        </a>
+        {/* Other icons below */}
         <a href="https://github.com/agattu1">
           <FaGithub />
           <span> Github</span>
@@ -125,3 +96,44 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+///////// OG /////////////////
+//////////////////////////////
+// import React from 'react';
+// import PlexusBackground from './PlexusBackground';
+// import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+// import './HomePage.css';
+
+// const HomePage = () => {
+//   return (
+//     <div className="home">
+//       <div className="plexus-background">
+//         <PlexusBackground />
+//       </div>
+//       <div className="home-content">
+//         <h1>Anirudh Gattu</h1>
+//         <h2>Georgia Institute of Technology</h2>
+//         <h3>Computer Science</h3>
+//         <h4>with Intelligence and Devices threads</h4>
+//       </div>
+//       <div className="home-icons">
+//         <a href="https://github.com/agattu1">
+//           <FaGithub />
+//           <span> Github</span>
+//         </a>
+//         <a href="https://www.linkedin.com/in/anig2">
+//           <FaLinkedin />
+//           <span> LinkedIn</span>
+//         </a>
+//         <a href="mailto:gattu.a@outlook.com">
+//           <FaEnvelope />
+//           <span> Email</span>
+//         </a>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HomePage;
