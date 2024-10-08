@@ -45,5 +45,6 @@ Build the Project: Create a production build of your project:
 Deploy to gh-pages: Deploy the built files to the gh-pages branch:
 >> npm run deploy
 
+ProTip: semicolon after each instrcuton will run everything: >> `npm install; npm install gh-pages --save-dev; npm run build; npm run deploy`
 Verify Deployment: Once the deployment is complete, check site:
                     http://agattu1.github.io
