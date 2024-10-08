@@ -181,7 +181,7 @@ const AboutPage = () => {
         <div className="personal-info">
           <p className="reflective-quote">
             "Appreciate you visiting my page. Currently attempting to gain maximum exposure to state-of-the-art technologies & software from the industry and my institute. Proactive in self-growth, engineering without boundaries, and setting up a foundation for the future. Sometimes, I just engineer for the fun of it. Also, all of my projects are hosted on 
-            <Link to="https://github.com/agattu1" className="github-button"> GitHub</Link>"
+            <Link to="https://github.com/agattu1" className="github-button"> GitHub</Link>!!"
           </p>
         </div>
       </div>
