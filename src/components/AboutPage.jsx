@@ -83,7 +83,7 @@
 //         </div>
 //         <div className="personal-info">
 //           <p> "Apppreciate you visiting my page. Currently attempting to gain maximum exposure to state of art technologies & software from industry and my institute. Proactive in self-growth, engineering without boundaries, and setting up a foundation for the future. Sometimes, I just engineer for the fun of it. Also, all of my projects are hosted on
-//               {''} <Link to="https://github.com/agattu1" className="github-link"> GitHub</Link>."
+//               {''} <Link to="https://github.com/agattu1" className="github-link"> GitHub</Link>!"
 //             </p>
 //         </div>
 //       </div>
