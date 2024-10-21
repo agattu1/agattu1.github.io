@@ -67,13 +67,13 @@ const HomePage = () => {
         <PlexusBackground />
       </div>
       <div className="home-content">
-        <h1>Anirudh Gattu</h1>
+        <h1>Anirudh KS Gattu</h1>
         {}
         <h2><TypewriterEffect /></h2> {}
       </div>
       <div className="home-icons">
         {}
-        <a href="https://meritpages.com/agattu">
+        <a href="https://meritpages.com/anirudhgattu">
           <FaStar /> {}
           <span> MeritPages</span>
         </a>
